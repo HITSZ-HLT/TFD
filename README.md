@@ -13,7 +13,7 @@
 
 ## Preparation
 
-Download  [**multimodal-datasets**]([###](https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link)) and save it in `./multimodal-satasets`.
+Download  [**multimodal-datasets**]([https://drive.google.com/file/d/1Xxgp-D2idEcds023iPilyCXYY4kF9tm8/view?usp=drive_link]) and save it in `./multimodal-satasets`.
 
 
 
