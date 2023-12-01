@@ -1,0 +1,38 @@
+# Should be MELD, MELD-sentiment, IEMOCAP, or emorynlp, emorynlp-sentiment
+DATASET: MELD
+
+# Either `base` or `large`
+roberta: large
+# either null or the checkpoint directory path
+model_checkpoint: null
+OUTPUT_DIR: null
+
+SEED: 2
+
+# upper, title, or None
+speaker_mode: upper
+
+# number of past utterances to consider.
+num_past_utterances: 1000
+
+# number of future utterances to consider.
+num_future_utterances: 0
+
+# number of data samples per batch
+BATCH_SIZE: 4
+
+# hyperparameter tuning up to how many dialogues.
+HP_ONLY_UPTO: 20
+
+# maximum number of training epochs.
+NUM_TRAIN_EPOCHS: 15
+
+WEIGHT_DECAY: 0.01
+WARMUP_RATIO: 0.2
+
+# number of trials for hyperparameter tuning
+HP_N_TRIALS: 10
+
+# Random seeds to run. The number of training corresponds to the number of seeds in this list.
+SEEDS:
+  - 4
