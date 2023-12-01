@@ -29,11 +29,11 @@ If you find our work useful for your research, please kindly cite our paper as f
 ```
 @article{,
   title={A Training-Free Debiasing Framework with Counterfactual Reasoning for Conversational Emotion Detection},
-  author={},
-  journal={},
+  author={Geng Tu, Ran Jing, Bin Liang, Min Yang, Kam-Fai Wong, and Ruifeng Xu},
+  booktitle={Proceedings of The 2023 Conference on Empirical Methods in Natural Language Processing, (EMNLP 2023)},
   year={2023}
 }
 ```
 
 ## Credits
-The code of this repository partly relies on [erc](https://github.com/tae898/erc) and I would like to show my sincere gratitude to authors of it.
+The code of this repository partly relies on [EmoBERTa](https://github.com/tae898/erc) and [CORSAIR](https://github.com/qianc62/Corsair). I would like to show my sincere gratitude to the authors behind these contributions.
