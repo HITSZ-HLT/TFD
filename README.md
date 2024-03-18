@@ -1,6 +1,6 @@
 # TFD
 
-> The official implementation for the conference of EMNLP 2023 paper *A Training-Free Debiasing Framework with Counterfactual Reasoning for Conversational Emotion Detection*.
+> The official implementation for the conference of the EMNLP 2023 paper *A Training-Free Debiasing Framework with Counterfactual Reasoning for Conversational Emotion Detection*.
 
 <img src="https://img.shields.io/badge/Venue-EMNLP--23-blue" alt="venue"/> <img src="https://img.shields.io/badge/Status-Accepted-success" alt="status"/> <img src="https://img.shields.io/badge/Issues-Welcome-red">
 
@@ -27,10 +27,11 @@ use train-erc-text.yaml to change the parameters.
 ## Citation
 If you find our work useful for your research, please kindly cite our paper as follows:
 ```
-@article{,
+@inproceedings{tu2023training,
   title={A Training-Free Debiasing Framework with Counterfactual Reasoning for Conversational Emotion Detection},
-  author={Geng Tu, Ran Jing, Bin Liang, Min Yang, Kam-Fai Wong, and Ruifeng Xu},
-  booktitle={Proceedings of The 2023 Conference on Empirical Methods in Natural Language Processing, (EMNLP 2023)},
+  author={Tu, Geng and Jing, Ran and Liang, Bin and Yang, Min and Wong, Kam-Fai and Xu, Ruifeng},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={15639--15650},
   year={2023}
 }
 ```
